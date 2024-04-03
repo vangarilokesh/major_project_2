@@ -1,0 +1,67 @@
+#parentsConfirmation {
+  margin-bottom: 20px;
+
+}
+
+.heading{
+  font-size: 30px;
+  
+}
+
+#reason {
+  font-weight: bold;
+  padding-top: 20px;
+  max-width: 100%;
+}
+
+#oneDayPermission {
+  margin-bottom: 20px;
+}
+
+#startDate,
+#endDate {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#startDate,
+#endDate,
+.form-select {
+  margin-bottom: 20px;
+}
+
+#generatePassButton {
+  margin-top: 10px;
+}
+
+.card{
+  max-width: 50rem;
+  background-color:darkgrey;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: large;
+}
+
+.card-body {
+  padding: 10px;
+  font-size: medium;
+  font-weight: 600
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #100f0f;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-primary:active {
+  background-color: #004693;
+}

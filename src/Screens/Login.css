@@ -1,0 +1,59 @@
+body{
+  background-color:rgb(247, 239, 156);
+}
+.login-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #050303;
+  border-radius: 5px;
+  background-color: #f0b874;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  font-size: large;
+  padding-bottom: 0.7rem;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #090808;
+}
+
+.btn-secondary {
+  background-color: #151c22;
+  color: #f3f1f1;
+}
+
+.btn-warning{
+  background-color: #dd56ee;
+  color: #0a0707;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,46 @@
+.navbar-custom {
+  background-color: rgb(231, 225, 155); /* Change background color as needed */
+  font-weight: bolder;
+}
+
+.navbar-brand {
+  color: #090a0a;
+  font-family: cursive;
+  font-weight: bolder;
+  font-size: 2rem;
+  /* Change text color */
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  color: #090a0a;
+}
+
+.navbar-nav > li {
+  margin-right: 10px;
+  font-size: large;
+  font-weight: bolder;
+  /* Adjust spacing between items */
+}
+
+.navbar-nav > li:last-child {
+  margin-right: 0;
+  /* Remove margin for the last item */
+}
+
+.navbar-nav .btn {
+  margin-top: 5px;
+  /* Adjust spacing between buttons */
+  font-size: small;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: space-between; /* Align items to the right */
+  align-items: center;
+}
+
+.navbar-nav .btn {
+  margin-left: auto; /* Push the button to the right */
+}

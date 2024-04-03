@@ -1,0 +1,29 @@
+#outPassCard {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#outPassCard .card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#outPassCard .card-text {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#outPassCard .btn {
+  background-color: #ffc107;
+  border: none;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#outPassCard .btn:hover {
+  background-color: #ff9800;
+}

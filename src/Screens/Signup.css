@@ -1,0 +1,31 @@
+#name,
+#userid,
+#userPassword,
+#confirmPassword,
+#branch,
+#classYear,
+#section,
+#phoneNumber {
+  max-width: 70%;
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-primary:active {
+  background-color: #004693;
+}
